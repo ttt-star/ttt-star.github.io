@@ -12,6 +12,8 @@
     background-position: center;
 }
 
+
+
 nav{
     display: flex;
     width: 100%;
@@ -24,11 +26,8 @@ nav{
     top: 0px;
     border-radius: 100px;
     height: 14vh;
-    
+    left: 10px;
 }
-
-
-
 
 nav ul li {
 
