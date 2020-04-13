@@ -69,7 +69,7 @@ nav ul{
  
 
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1060px){
     .nav-links{
         display: flex;
         justify-content:space-evenly;
@@ -98,7 +98,7 @@ nav ul{
     display: none;
 }
 
-@media screen and (max-width:828px){
+@media screen and (max-width:868px){
     .checkbtn{
         display: block;
     }
