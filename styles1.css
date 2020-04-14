@@ -19,7 +19,7 @@
     justify-content: center;
     align-items:center;       
     min-height: 196vh;
-    margin-right: initial;
+    margin-right: initial; 
     position: fixed;
     right:1%;
    
@@ -29,7 +29,7 @@
 {
     -webkit-appearance: none;
     visibility: hidden;
-    display: none;
+    display: none; 
 }
 
 .dl .check{
@@ -39,12 +39,12 @@
     height: 20px;
     background: #092c3e;
     cursor:pointer;
-    border-radius: 30px;
+    border-radius: 30px; 
     overflow: hidden;
     transition: ease-in o.5s;
 }
 
-.dl input[type="checkbox"]:checked ~ .check{
+.dl input[type="checkbox"]:checked ~ .check{ 
     background: #fff;
     box-shadow: 0 0 0 1200px #092c3e;
 }
@@ -54,7 +54,7 @@
    position:absolute;
    top: 2px;
    right: 2px; 
-   background: #fff;
+   background: #fff; 
    width: 16px;
    height: 16px;
    border-radius: 50%;
@@ -71,7 +71,7 @@
     top: 2px;
     left: 2px;
     background: #092c3e;
-    width: 16px;
+    width: 16px; 
     height: 16px;
     border-radius: 50%;
     transition: 0.5s;
@@ -79,7 +79,7 @@
  }
  
  .dl input[type="checkbox"]:checked ~ .check:after{
-     transform: translateX(0px);
+     transform: translateX(0px); 
  }
  
 
