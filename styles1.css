@@ -4,93 +4,154 @@
     font-family: verdana;
     box-sizing: border-box;
 }
-#main{
+
+
+
+div svg{
     width: 100%;
     height: 100vh;
-    background-image: url(images/6.jpg);
     background-size: cover;
-    background-position: center;
+    background-color: rgba(255, 0, 140, 0.288);
+    position: center;
+    align-items: center;
+    justify-items: absolute;
+    background-repeat: repeat-x;
 }
 
-.dl{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items:center;       
-    min-height: 190vh;
-    margin-right: initial; 
-    position: fixed;
-    right:2%;                          
+#box1{
+  animation: b1 3s linear forwards;
+}
+
+
+
+#box2{
+    animation: b1 3s linear forwards;
+  }
+  
+ 
+  #box3{
+    animation: b1 3s linear forwards;
+  }
+  
+ 
+
+  #Smart{
+    animation: b1 3s linear forwards;
+  }
+  
+  @keyframes b1{
+    from{
+         transform: translateX(100rem);
+    }
+    to{
+       transform: translate2(0rem);
+    }
+}
+
+#box4{
+    animation: b2 2s linear forwards;
+  }
+  #box5{
+      animation: b2 2s linear forwards;
+    }
+    
    
+    #box6{
+      animation: b2 2s linear forwards;
+    }
+    @keyframes b2{
+        from{
+             transform: translateX(-100rem);
+        }
+        to{
+           transform: translateX(0rem);
+        }
+    }
+  #women{
+    animation: b4 3.3s linear forwards;
+  } 
+  
+    
+    @keyframes b4{
+      from{
+           transform: translateY(100rem);
+      }
+      to{
+         transform: translateY(0rem);
+      }
+  }
+
+
+  #box7{
+    animation: b3 1s linear forwards;
+  }
+  
+  
+  
+  #box8{
+      animation: b3 1s linear forwards;
+    }
+    
+   
+    #box9{
+      animation: b3 1s linear forwards;
+    }
+    
+   
+  
+   
+    @keyframes b3{
+      from{
+           transform: translateX(100rem);
+      }
+      to{
+         transform: translateX(0rem);
+      }
+  }
+    
+ #kart 
+  {
+      
+      animation: b5 0.9s linear 4;
+      transform-origin: center;
+         transform-box: fill-box;
+  }
+
+  #Kart
+  {
+    animation: b6 4.1s linear;
+  }
+  
+  @keyframes b6{
+    from{
+         transform: rotateZ(180deg);
+         
+    }
+    to{
+       transform: rotateZ(360deg);
+      
+    }
 }
 
-.dl input[type="checkbox"]
-{
-    -webkit-appearance: none;
-    visibility: hidden;
-    display: none; 
+  @keyframes b5{
+    from{
+         transform: rotateZ(0deg);
+         
+    }
+    to{
+       transform: rotateZ(360deg);
+      
+    }
 }
-
-.dl .check{
-    position: relative;
-    display: block;
-    width: 40px;
-    height: 20px;
-    background: #092c3e;
-    cursor:pointer;
-    border-radius: 30px; 
-    overflow: hidden;
-    transition: ease-in o.1s;
-}
-
-.dl input[type="checkbox"]:checked ~ .check{ 
-    background: #fff;
-    box-shadow: 0 0 0 1200px #092c3e;
-}
-
-.dl .check:before{
-   content: '';
-   position:absolute;
-   top: 2px;
-   right: 2px; 
-   background: #fff; 
-   width: 16px;
-   height: 16px;
-   border-radius: 50%;
-   transition: 0.2s;
-}
-
-.dl input[type="checkbox"]:checked ~ .check:before{
-    transform: translateX(-50px);
-}
-
-.dl .check:after{
-    content: '';
-    position:absolute;
-    top: 2px;
-    left: 2px;
-    background: #092c3e;
-    width: 16px; 
-    height: 16px;
-    border-radius: 50%;
-    transition: 0.2s;
-    transform: translateX(50px);
- }
- 
- .dl input[type="checkbox"]:checked ~ .check:after{
-     transform: translateX(0px); 
- }
- 
 
 .heading{
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
-    font-size: 3rem;
-    text-shadow: 5px 5px 10px #05e5f5;
-    animation: animate 2s linear infinite;
+    font-size: 4rem;
+    text-shadow: 5px 5px 3px #05e5f5;
+    animation: animate 3s infinite;
 }
 
 
@@ -99,13 +160,9 @@
 {
     0%,100%{
       color: #fff;
-      filter: blur(2px);
-      text-shadow: 0 0 10px #00b3ff,
-                   0 0 20px #00b3ff,
-                   0 0 40px #00b3ff,
-                   0 0 80px #00b3ff,
-                   0 0 200px #00b3ff,
-                   0 0 300px #00b3ff;
+      filter: blur(1px);
+      
+                   
 }
     5%,75%
     {
@@ -115,31 +172,48 @@
     }
 }
 
-
+@keyframes anima
+{
+    0%,100%{
+      color: #fff;
+      filter: blur(1px);
+      
+                   
+}
+    5%,75%
+    {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px none;
+    }
+}
 
 .headin{
     
     position: absolute;
-    top: 65%;
+    top: 55%;
     width: 100%;
     text-align: center;
     font-size: 4.5rem;
-    color: #ddd;
-    text-shadow: 5px 5px 10px #05e5f5;
+    color: rgb(0, 217, 255);
+    text-shadow: 3px 3px 3px ;
+    text-shadow :1;
     font-family: sans-serif;
     word-spacing: 0.2em;
-   
+    text-decoration: chartreuse;
+    text-decoration-color: red;
+    animation: anima 0.5s linear 12;
 }
 
 
 .headin span{
-    opacity: 0;
-    display: inline-block;
-   
-    background: url(images/13.jfif);
-    -webkit-background-clip: text;
+  opacity: 0;
+  display: inline-block;   
+  background:rgb(179, 5, 223);
+  -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
-  animation: anim 2s linear forwards;
+  animation: anim 5s linear forwards;
+  
 }
 
 @keyframes anim
@@ -171,7 +245,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgba(0, 78, 247, 0.541) ;
+    background-color: rgba(0, 58, 247, 0.589) ;
     font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 2px;
