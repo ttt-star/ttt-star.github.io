@@ -18,10 +18,10 @@
     display: flex;
     justify-content: center;
     align-items:center;       
-    min-height: 196vh;
+    min-height: 190vh;
     margin-right: initial; 
     position: fixed;
-    right:1%;
+    right:2%;
    
 }
 
