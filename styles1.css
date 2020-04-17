@@ -202,9 +202,26 @@ div svg{
     word-spacing: 0.2em;
     text-decoration: chartreuse;
     text-decoration-color: red;
-    animation: anima 0.5s linear 12;
+    animation: anima 0.4s linear 12;
 }
 
+.SS{
+    position: absolute;
+    top: 81%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 3px ;
+    text-shadow :2;
+    scrollbar-shadow-color: lawngreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.1em;
+    text-decoration: chartreuse;
+    text-decoration-color: rgb(9, 255, 0);
+    animation: anima 2s linear 5;
+    text-shadow: 1px 1px 1px rgb(0, 255, 0);
+}
 
 .headin span{
   opacity: 0;
